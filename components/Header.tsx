@@ -3,8 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState,useEffect } from "react";
 
-const NavBar = () => {
-  const [navbar, setNavbar] = useState(false);
+const Header = () => {
+    const [navbar, setNavbar] = useState(false);
   const [show, setshow] = useState(false);
 
   const transitionNavBar=()=>{
@@ -185,7 +185,7 @@ const NavBar = () => {
         </li>
       </ul>
     </nav>
-  );
-};
+  )
+}
 
-export default NavBar;
+export default Header
