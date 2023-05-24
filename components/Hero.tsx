@@ -11,7 +11,7 @@ const Hero = () => {
           src="/static/heli.jpg"
           height="100"
           width="100"
-          className="w-full h-80 md:h-[70vh] lg:h-[95vh] "
+          className="w-full h-80 md:h-[60vh] lg:h-[75vh] xl:h-[95vh] "
           alt="VT_ZIN"
         />
         <div className="absolute top-0 inset-x-0 bottom-0 bg-black bg-opacity-20 font-bold flex items-end text-md pb-12 ps-8 md:text-3xl md:pb-20 lg:pb-24 lg:text-5xl lg:ps-32 xl:text-7xl  text-white">

@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState,useEffect } from "react";
 
-const Navbar = () => {
+const NavBar = () => {
   const [navbar, setNavbar] = useState(false);
   const [show, setshow] = useState(false);
 
@@ -28,13 +28,13 @@ const Navbar = () => {
               height={70}
               width={120}
               src={"/oldlogoresized.png"}
-              className="h-10 w-12 md:h-11 md:w-16 xl:h-14 xl:w-20"
+              className="h-10 w-12 md:h-11 md:w-16 lg:h-14 lg:w-20 xl:h-14 xl:w-20"
               alt={"Dhillon Aviation"}
             />
           </Link>
 
           <Image
-            className=" ml-3 h-10 w-48 md:h-11 md:w-72 xl:h-14 xl:w-72"
+            className=" ml-3 h-10 w-48 md:h-11 md:w-72 lg:h-14 lg:w-72 xl:h-14 xl:w-72"
             height={50}
             width={280}
             src={"/brandfinalgapcropped.svg"}
@@ -64,7 +64,7 @@ const Navbar = () => {
             ></path>
           </svg>
         </button>
-        <div className="hidden w-full text-lg mt-3 pr-4 lg:block lg:w-auto lg:align xl:text-xl">
+        <div className="hidden w-full text-lg mt-3 pr-4 lg:block lg:w-auto lg:align lg:text-lg xl:text-xl">
           <ul className="font-semibold flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             <li>
               <Link
@@ -188,4 +188,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavBar;
