@@ -5,6 +5,7 @@ module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
+    './components/About/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
@@ -19,6 +20,7 @@ module.exports = {
       'manualgrey':'#3E497A',
       'manualyellow':'#EBB02D',
       'manuallightgrey':'#9BA4B5',
+      'manualviolet':'#A459D1',
       ...colors,
     },
     fontFamily: {

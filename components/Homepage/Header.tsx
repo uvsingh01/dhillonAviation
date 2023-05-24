@@ -20,14 +20,14 @@ const Header = () => {
     return ()=> window.removeEventListener('scroll',transitionNavBar);
   },[]);
   return (
-    <nav className={`flex z-50 top-0 inset-x-0 pb-4 pt-2 px-3 fixed  max-h-24 ease-in-out duration-500 ${show?"bg-white shadow-lg":"bg:tranparent"}`}>
+    <nav className={`flex z-50 top-0 inset-x-0 pb-4 pt-2 px-3 fixed max-h-24 ease-in-out duration-500 ${show?"bg-white shadow-lg":"bg:tranparent"}`}>
       <div className="flex w-full items-end justify-between mx-3">
         <div className="flex justify-center">
           <Link href="/">
             <Image
               height={70}
               width={120}
-              src={"/oldlogoresized.png"}
+              src={"/static/nav/oldlogoresized.png"}
               className="h-10 w-12 md:h-11 md:w-16 lg:h-14 lg:w-20 xl:h-14 xl:w-20"
               alt={"Dhillon Aviation"}
             />
@@ -37,7 +37,7 @@ const Header = () => {
             className=" ml-3 h-10 w-48 md:h-11 md:w-72 lg:h-14 lg:w-72 xl:h-14 xl:w-72"
             height={50}
             width={280}
-            src={"/brandfinalgapcropped.svg"}
+            src={"/static/nav/brandfinalgapcropped.svg"}
             alt=""
           />
         </div>
@@ -121,7 +121,7 @@ const Header = () => {
             <Image
               height={70}
               width={120}
-              src={"/brandfinalgapcropped.svg"}
+              src={"/static/nav/brandfinalgapcropped.svg"}
               className="h-20 w-60"
               alt={"Dhillon Aviation"}
             />
