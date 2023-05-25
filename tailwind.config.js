@@ -13,7 +13,7 @@ module.exports = {
       'sm':'360px',
       'md': '540px',
       'lg':'860px',
-      'xl':'1025px',
+      'xl':'1024px',
       '2xl': '1280px',
     },
     colors:{
@@ -31,6 +31,7 @@ module.exports = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+          
       },
     },
   },
