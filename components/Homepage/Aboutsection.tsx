@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Aboutsection = () => {
@@ -33,7 +34,10 @@ const Aboutsection = () => {
           are committed to delivering the highest standards of service and
           exceeding your expectations at every step of the journey.
         </div>
-      </div>
+        <Link href="/about" className="self-center">
+        <div className="mt-8 text-manualgrey rounded-xl p-2.5 border-2 border-manualyellow ease-in-out duration-300 hover:scale-110 hover:bg-manualyellow hover:text-black">Know more</div>
+        </Link>
+        </div>
     </section>
   );
 };

@@ -21,7 +21,7 @@ const Header = () => {
     return ()=> window.removeEventListener('scroll',transitionNavBar);
   },[]);
   return (
-    <nav className={`flex z-50 top-0 inset-x-0 pb-4 pt-2 px-3 fixed max-h-24 ease-in-out duration-500 ${show?"bg-white shadow-lg":"bg:tranparent"}`}>
+    <nav className={`flex z-50 top-0 inset-x-0 pb-4 pt-2 px-3 fixed max-h-24 ease-in-out duration-500 ${show?"bg-white shadow-lg bg-opacity-95 ":"bg:tranparent "}`}>
       <div className="flex w-full items-end justify-between mx-3">
         <div className="flex justify-center">
           <Link href="/">
