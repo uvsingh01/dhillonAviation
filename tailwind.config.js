@@ -22,6 +22,7 @@ module.exports = {
       'manualyellow':'#EBB02D',
       'manuallightgrey':'#9BA4B5',
       'manualviolet':'#A459D1',
+      'manualblue':'#0E214E',
       ...colors,
     },
     fontFamily: {
