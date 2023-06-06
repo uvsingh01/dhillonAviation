@@ -31,7 +31,7 @@ const Newsection = () => {
             height="100"
             width="100"
             alt="d"
-            className="h-auto inline w-full md:h-14 lg:h-14 xl:h-16 2xl:h-20  md:w-48 lg:w-60 xl:w-72 2xl:w-96"
+            className="h-auto inline sm:max-md:w-4/6 md:h-14 lg:h-14 xl:h-16 2xl:h-20  md:w-48 lg:w-60 xl:w-72 2xl:w-96"
           />
 
         </Link>
