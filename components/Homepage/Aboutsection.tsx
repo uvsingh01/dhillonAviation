@@ -1,9 +1,19 @@
+//@ts-nocheck
 "use client";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React,{useEffect} from "react";
 
 const Aboutsection = () => {
+  useEffect(() => {
+    AOS.init(
+      {
+        duration : 500,
+      }
+    );
+  }, [])
   return (
     <section className="bg-[url('/static/bgwhite.jpg')] bg-cover flex flex-col items-center xl:flex-row h-auto ">
       <Image
@@ -13,14 +23,14 @@ const Aboutsection = () => {
         alt="Dhillon Aviation"
         className="hidden xl:block h-[31.25rem] w-[31.25rem]"
       />
-      <div className="flex flex-col text-sm md:text-lg lg:text-xl mx-10 my-10 md:mx-16 lg:my-20">
+      <div data-aos="fade-up" className="flex flex-col text-sm md:text-lg lg:text-xl mx-10 my-10 md:mx-16 lg:my-20">
         <div className="text-manualgrey text-xl leading-loose underline underline-offset-8 decoration-manuallightgrey md:text-xl lg:text-3xl font-extrabold tracking-[0.25em] mb-5">
           WHO WE ARE
         </div>
-        <div className="text-3xl slg:text-4xl xl:text-5xl text-manualyellow font-extrabold mb-5 lg:mb-10">
+        <div data-aos="fade-up"  className="text-3xl slg:text-4xl xl:text-5xl text-manualyellow font-extrabold mb-5 lg:mb-10">
           Where Safety And Excellence Takes Flight.
         </div>
-        <div className="lg:mr-5">
+        <div data-aos="fade-up" className="lg:mr-5">
           We are a distinguished aviation service provider with a specialization
           in delivering exceptional services,
           <span className="font-semibold ">

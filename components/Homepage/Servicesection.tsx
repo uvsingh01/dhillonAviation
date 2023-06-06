@@ -1,7 +1,10 @@
+//@ts-nocheck
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React,{useEffect} from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 interface prop {
   title: string;
@@ -14,7 +17,7 @@ interface prop {
 const Row = ({ title, description, path, short,hidden }: prop) => {
   return (
     <>
-      <div className={`p-5 border-manuallightgrey border-4 rounded-3xl mb-10 flex flex-col items-center ${hidden?"max-xl:hidden":"visible"} `}>
+      <div data-aos="zoom-in" className={`p-5 border-manuallightgrey border-4 rounded-3xl mb-10 flex flex-col items-center ${hidden?"max-xl:hidden":"visible"} `}>
         <Image src={`${path}`} height="100" width="100" alt="Dhillon Aviation" className="h-10 w-10 mb-2" />
         <div className="text-manualyellow text-center font-semibold text-lg lg:text-xl mx-2 mb-2 ">{title}</div>
         <div className="text-sm text-center">{short}</div>
@@ -24,6 +27,11 @@ const Row = ({ title, description, path, short,hidden }: prop) => {
 };
 
 const Servicesection = () => {
+  useEffect(() => {
+    AOS.init({
+      duration : 500,
+    });
+  }, [])
   const data = [
     {
       title: "Aerial Filming",

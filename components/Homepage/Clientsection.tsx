@@ -1,10 +1,21 @@
-// @ts-nocheck
-"use client"
+//@ts-nocheck
+"use client";
+import React,{useEffect} from "react";
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import  Carousel  from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
 
 const Clientsection = () => {
+  useEffect(() => {
+    AOS.init(
+      {
+        duration : 500,
+      }
+    );
+  }, [])
   const clientImages = [
     '/static/client/bjp.png',
     '/static/client/reservebank.png',
@@ -54,7 +65,7 @@ const Clientsection = () => {
 
       <Carousel {...carouselSettings}>
         {clientImages.map((image, index) => (
-          <div key={index} className="flex justify-center cursor-pointer  h-auto w-full">
+          <div key={index} data-aos="fade-up" className="flex justify-center cursor-pointer  h-auto w-full">
             <img
               src={image}
               alt={`Client Logo ${index + 1}`}
