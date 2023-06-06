@@ -33,7 +33,7 @@ const Header = () => {
               alt={"Dhillon Aviation"}
             />
           </Link>
-
+          <Link href="/">
           <Image
             className=" ml-3 h-10 w-48 md:h-11 md:w-72 lg:h-14 lg:w-72 xl:h-14 xl:w-72"
             height={50}
@@ -41,6 +41,8 @@ const Header = () => {
             src={"/static/nav/brandfinalgapcropped.svg"}
             alt=""
           />
+          </Link>
+          
         </div>
         <button
           onClick={() => setNavbar(true)}

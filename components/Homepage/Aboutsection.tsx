@@ -17,7 +17,7 @@ const Aboutsection = () => {
         <div className="text-manualgrey text-xl leading-loose underline underline-offset-8 decoration-manuallightgrey md:text-xl lg:text-3xl font-extrabold tracking-[0.25em] mb-5">
           WHO WE ARE
         </div>
-        <div className="text-3xl lg:text-5xl text-manualyellow font-extrabold mb-5 lg:mb-10">
+        <div className="text-3xl slg:text-4xl xl:text-5xl text-manualyellow font-extrabold mb-5 lg:mb-10">
           Where Safety And Excellence Takes Flight.
         </div>
         <div className="lg:mr-5">

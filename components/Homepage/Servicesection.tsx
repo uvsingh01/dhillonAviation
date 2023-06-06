@@ -101,8 +101,8 @@ const Servicesection = () => {
     },
   ];
   return (
-    <section className="bg-black text-white flex flex-col items-center px-10 py-10 lg:py-20 md:px-16 ">
-      <div className=" text-3xl font-extrabold mb-16 underline underline-offset-8 decoration-manualyellow leading-relaxed lg:text-5xl">
+    <section className="bg-manualblack text-white flex flex-col items-center px-10 py-10 lg:py-20 md:px-16 ">
+      <div className=" text-3xl font-extrabold mb-16 underline underline-offset-8 decoration-manualyellow leading-relaxed slg:text-4xl xl:text-5xl">
         OUR SERVICES
       </div>
       <div className="grid gap-4 content-start sm:grid-cols-1 sm:grid-rows-6 md:grid-cols-2 md:grid-rows-3 lg:grid-cols-3 lg:grid-rows-2 xl:grid-cols-5 xl:grid-rows-2">
