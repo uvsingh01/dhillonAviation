@@ -1,21 +1,16 @@
 //@ts-nocheck
 "use client";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 import React,{useEffect} from "react";
 
 const Formsection = () => {
-  useEffect(() => {
-    AOS.init({
-      duration : 500,
-    });
-  }, [])
+
   return (
     <section className="bg-manualblack p-10 lg:p-20 ">
       <h1 className='text-white text-center text-3xl slg:text-4xl xl:text-5xl leading-loose underline underline-offset-8 decoration-manuallightgrey font-extrabold  mb-5 lg:mb-10'> Contact Us for Further Inquiries</h1>
       <h3 className='text-manuallightgrey text-center text-xl  font-extrabold  mb-14'>We are at Your Service to Support Your Business. Feel free to reach out to us by filling below form</h3>
       <div>
-        <form data-aos="fade-up" className='flex flex-col items-center'>
+        <form className='flex flex-col items-center'>
             <input type="text" id="fname" name="fname" placeholder="Name" className="h-12 lg:h-16 w-4/5 2xl:w-[50rem] lg:text-2xl pl-5 rounded-lg"></input><br></br>
             <input type="text" id="email" name="email" placeholder="Email Address" className="h-12 lg:h-16 w-4/5 2xl:w-[50rem] lg:text-2xl pl-5 rounded-lg"></input><br></br>
             <input type="text" id="subject" name="subject" placeholder="Subject" className="h-12  lg:h-16 w-4/5 2xl:w-[50rem] lg:text-2xl pl-5 rounded-lg"></input><br></br>

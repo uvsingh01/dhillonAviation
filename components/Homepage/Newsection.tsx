@@ -22,8 +22,8 @@ const Newsection = () => {
           FOR THE RIGHT REASONS
         </h3>
       </div>
-      <div className="flex flex-col md:flex-row md:justify-between gap-4 ">
-        <Link data-aos="fade-up" href="https://www.tribuneindia.comnews/archive/chandigarh/rose-fest-chopper-ride-to-cost-rs-2-310-732841" 
+      <div data-aos="fade-up" className="flex flex-col md:flex-row md:justify-between gap-4 ">
+        <Link  href="https://www.tribuneindia.comnews/archive/chandigarh/rose-fest-chopper-ride-to-cost-rs-2-310-732841" 
         className="hover:scale-105 ease-in-out duration-30 ">
           <Image
             src="/static/news/tt.jpg"
@@ -33,7 +33,7 @@ const Newsection = () => {
             className="h-auto inline sm:max-md:w-4/6 md:w-60 lg:w-60 xl:w-72 2xl:w-80 self-center"
           />
         </Link>
-        <Link data-aos="fade-up" href="https://timesofindia.indiatimes.com/city/chandigarh/33rd-spring-fest-begins-today-in-panchkula/articleshow/68330063.cms" className="self-center hover:scale-105 ease-in-out duration-300">
+        <Link href="https://timesofindia.indiatimes.com/city/chandigarh/33rd-spring-fest-begins-today-in-panchkula/articleshow/68330063.cms" className="self-center hover:scale-105 ease-in-out duration-300">
 
           <Image
             src="/static/news/toi.svg"
@@ -44,7 +44,7 @@ const Newsection = () => {
           />
 
         </Link>
-        <Link data-aos="fade-up" href="https://www.india.com/news/india/anti-naxal-operations-crpf-hires-two-private-choppers-for-military-sorties-300867/"
+        <Link href="https://www.india.com/news/india/anti-naxal-operations-crpf-hires-two-private-choppers-for-military-sorties-300867/"
         className="hover:scale-105 ease-in-out duration-300">
 
           <Image
