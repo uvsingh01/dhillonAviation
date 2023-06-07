@@ -9,7 +9,7 @@ import 'aos/dist/aos.css';
 const Newsection = () => {
   useEffect(() => {
     AOS.init({
-      duration : 500,
+      duration : 1000,
     });
   }, [])
   return (

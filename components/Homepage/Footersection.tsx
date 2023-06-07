@@ -16,7 +16,7 @@ const Footersection = () => {
               alt=""
             />
           </Link>
-          <h1 className=" hidden md:block text-lg  ">
+          <h1 className=" hidden md:block text-md  ">
             Choose Dhillon Aviation for unmatched expertise, exceptional
             service, and a seamless flying experience. Elevate your travel with
             us and discover a world of convenience, comfort, and reliability.{" "}
@@ -68,25 +68,25 @@ const Footersection = () => {
               Quick Links
             </h1>
             <Link href="/" className="text-md  md:text-lg lg:text-xl hover:text-manualyellow  " aria-current="page">
-              Home
-            </Link>
-            <Link href="#" className="text-md  md:text-lg lg:text-xl hover:text-manualyellow " aria-current="page">
-              Fleet
-            </Link>
-            <Link href="#" className="text-md  md:text-lg lg:text-xl hover:text-manualyellow " aria-current="page">
-              Services
-            </Link>
-            <Link href="#" className="text-md  md:text-lg lg:text-xl hover:text-manualyellow " aria-current="page">
-              Clients
-            </Link>
-            <Link href="#" className="text-md  md:text-lg lg:text-xl hover:text-manualyellow " aria-current="page">
-              About
-            </Link>
-            <Link href="#" className="text-md  md:text-lg lg:text-xl hover:text-manualyellow " aria-current="page">
-              Appreciations
-            </Link>
-            <Link href="#" className="text-md  md:text-lg lg:text-xl hover:text-manualyellow " aria-current="page">
               Contact Us
+            </Link>
+            <Link href="#" className="text-md  md:text-lg lg:text-xl hover:text-manualyellow " aria-current="page">
+            Appreciations
+            </Link>
+            <Link href="#" className="text-md  md:text-lg lg:text-xl hover:text-manualyellow " aria-current="page">
+            Terms & Conditions
+            </Link>
+            <Link href="#" className="text-md  md:text-lg lg:text-xl hover:text-manualyellow " aria-current="page">
+              Privacy Policy
+            </Link>
+            <Link href="#" className="text-md  md:text-lg lg:text-xl hover:text-manualyellow " aria-current="page">
+              Disclaimer  
+            </Link>
+            <Link href="#" className="text-md  md:text-lg lg:text-xl hover:text-manualyellow " aria-current="page">
+              
+            </Link>
+            <Link href="#" className="text-md  md:text-lg lg:text-xl hover:text-manualyellow " aria-current="page">
+              
             </Link>
           </div>
           <div className="flex flex-col  gap-4">
