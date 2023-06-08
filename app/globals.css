@@ -16,3 +16,17 @@
       }
     }
   }
+
+  .mask{
+    position: relative;
+    mask-image: url("/static/mask.svg");
+    mask-size: 100% 100%;
+    mask-repeat: no-repeat;
+
+    @media (max-width:730px){
+      mask-image: url("/static/mobilemaskmd.svg");
+    }
+    @media (max-width:540px){
+      mask-image: url("/static/mobilemasksm.svg");
+    }
+  }

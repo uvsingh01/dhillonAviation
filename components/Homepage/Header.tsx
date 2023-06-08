@@ -38,7 +38,7 @@ const Header = () => {
             className=" ml-3 h-10 w-48 md:h-11 md:w-72 lg:h-14 lg:w-72 xl:h-14 xl:w-72"
             height={50}
             width={280}
-            src={"/static/nav/brandfinalgapcropped.svg"}
+            src={`${show?"/static/nav/brandfinalgapcropped.svg":"/static/nav/brandfinalgapcroppedwhite.svg"}`}
             alt=""
           />
           </Link>
@@ -56,7 +56,7 @@ const Header = () => {
           <svg
             className="w-6 h-6"
             aria-hidden="true"
-            fill="currentColor"
+            fill="#3E497A"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -72,7 +72,7 @@ const Header = () => {
             <li>
               <Link
                 href="#"
-                className="block py-2 pl-3 pr-4 text-white bg-manualgrey rounded md:bg-transparent md:text-black md:p-0 dark:text-white md:dark:text-blue-500"
+                className={`block py-2 pl-3 pr-4 ${show?"text-black":"text-white"}   bg-manualgrey rounded md:bg-transparent md:p-0 dark:text-white md:dark:text-blue-500`}
                 aria-current="page"
               >
                 Home

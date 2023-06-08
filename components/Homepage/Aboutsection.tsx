@@ -23,7 +23,7 @@ const Aboutsection = () => {
         alt="Dhillon Aviation"
         className="hidden xl:block h-[31.25rem] w-[31.25rem]"
       />
-      <div data-aos="fade-up" className="flex flex-col text-sm md:text-lg lg:text-xl mx-10 my-10 md:mx-16 lg:my-20">
+      <div data-aos="fade-up" className="flex flex-col text-sm md:text-lg lg:text-xl px-10 py-10 md:px-16 lg:py-20">
         <div className="text-manualgrey text-xl leading-loose underline underline-offset-8 decoration-manuallightgrey md:text-xl lg:text-3xl font-extrabold tracking-[0.25em] mb-5">
           WHO WE ARE
         </div>
