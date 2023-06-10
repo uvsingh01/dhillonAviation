@@ -12,9 +12,9 @@ const Formsection = () => {
       <div>
         <form className='flex flex-col items-center'>
             <input type="text" id="fname" name="fname" placeholder="Name" className="h-12 lg:h-16 w-4/5 2xl:w-[50rem] lg:text-2xl pl-5 rounded-lg"></input><br></br>
-            <input type="text" id="email" name="email" placeholder="Email Address" className="h-12 lg:h-16 w-4/5 2xl:w-[50rem] lg:text-2xl pl-5 rounded-lg"></input><br></br>
+            <input type="email" id="email" name="email" placeholder="Email Address" className="h-12 lg:h-16 w-4/5 2xl:w-[50rem] lg:text-2xl pl-5 rounded-lg"></input><br></br>
             <input type="text" id="subject" name="subject" placeholder="Subject" className="h-12  lg:h-16 w-4/5 2xl:w-[50rem] lg:text-2xl pl-5 rounded-lg"></input><br></br>
-            <input type="text" id="message" name="message" placeholder="Message" className="h-32 lg:h-80 w-4/5 2xl:w-[50rem] lg:text-2xl pl-5 rounded-lg "></input><br></br>
+            <textarea type="text" id="message" name="message" placeholder="Message" className="h-32 lg:h-80 w-4/5 pt-4 2xl:w-[50rem] lg:text-2xl pl-5  rounded-lg "></textarea><br></br>
             <button className="px-8 py-4 text-white border-2 border-white hover:bg-white hover:text-black rounded-full lg:text-xl hover:scale-105 ease-in-out duration-300">Submit</button>
         </form>
       </div>
