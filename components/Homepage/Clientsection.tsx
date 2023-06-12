@@ -12,6 +12,7 @@ const Clientsection = () => {
   useEffect(() => {
     AOS.init(
       {
+        once:true,
         duration : 500,
       }
     );

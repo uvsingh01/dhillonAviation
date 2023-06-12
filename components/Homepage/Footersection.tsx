@@ -4,8 +4,8 @@ import React from "react";
 
 const Footersection = () => {
   return (
-    <section className="text-white bg-black p-10 lg:p-20">
-      <div className="flex gap-6 lg:gap-16 flex-col slg:max-xl:justify-center flex-wrap md:flex-row  ">
+    <footer className="text-white bg-black p-10 lg:p-20">
+      <div className="flex gap-6 lg:gap-16 flex-col slg:max-xl:justify-center 2xl:justify-between flex-wrap md:flex-row  ">
         <div className="flex flex-col w-1/3 gap-4">
           <Link href="/" className="min-w-max">
             <Image
@@ -134,7 +134,7 @@ const Footersection = () => {
           </div>
         {/* </div> */}
       </div>
-    </section>
+    </footer>
   );
 };
 

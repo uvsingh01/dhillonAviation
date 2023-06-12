@@ -29,6 +29,7 @@ const Row = ({ title, description, path, short,hidden }: prop) => {
 const Servicesection = () => {
   useEffect(() => {
     AOS.init({
+      once:true,
       duration : 500,
     });
   }, [])
