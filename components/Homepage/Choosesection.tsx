@@ -15,7 +15,7 @@ const Choosesection = () => {
   }, [])
   return (
     <section className="flex flex-col 2xl:flex-row shadow-xl">
-      <div className=" text-sm md:text-lg lg:text-xl p-10 lg:p-20  2xl:w-1/2 flex flex-col justify-center bg-[url('/static/cloudbg.jpg')] bg-fixed">
+      <div className=" text-sm md:text-lg lg:text-xl p-10 lg:p-20 sm:max-sm:h-96 md:max-lg:h-[32rem] xl:h-[32rem] 2xl:w-1/2 flex flex-col justify-center bg-[url('/static/cloudbg.jpg')] bg-fixed">
         <h3 data-aos="fade-right" className="text-manualgrey text-xl leading-loose underline underline-offset-8 decoration-manuallightgrey md:text-xl lg:text-3xl font-extrabold tracking-[0.25em] mb-5">
           WHY CHOOSE US
         </h3>

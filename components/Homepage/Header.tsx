@@ -22,8 +22,8 @@ const Header = () => {
   },[]);
   return (
     <nav className={`flex z-50 top-0 inset-x-0 pb-4 pt-2 px-3 fixed max-h-24 ease-in-out duration-500 ${show?"bg-white shadow-lg bg-opacity-95 ":"bg:tranparent "}`}>
-      <div className="flex w-full items-end justify-between mx-3">
-        <div className="flex justify-center">
+      <div className="flex w-full items-center justify-between mx-3">
+        <div className="flex justify-center items-center">
           <Link href="/">
             <Image
               height={70}
@@ -35,10 +35,10 @@ const Header = () => {
           </Link>
           <Link href="/">
           <Image
-            className=" ml-3 h-10 w-48 md:h-11 md:w-72 lg:h-14 lg:w-72 xl:h-14 xl:w-72"
+            className=" ml-3 mt-3 h-10 w-48 md:h-11 md:w-72 lg:h-14 lg:w-72 xl:h-14 xl:w-72"
             height={50}
             width={280}
-            src={`${show?"/static/nav/brandfinalgapcropped.svg":"/static/nav/brandfinalgapcroppedwhite.svg"}`}
+            src={`${show?"/static/nav/logobold.svg":"/static/nav/logoboldwhite.svg"}`}
             alt=""
           />
           </Link>
@@ -124,7 +124,7 @@ const Header = () => {
             <Image
               height={70}
               width={120}
-              src={"/static/nav/brandfinalgapcropped.svg"}
+              src={"/static/nav/logobold.svg"}
               className="h-20 w-60"
               alt={"Dhillon Aviation"}
             />

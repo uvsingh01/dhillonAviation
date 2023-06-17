@@ -17,7 +17,7 @@ interface prop {
 const Row = ({ title, description, path, short,hidden }: prop) => {
   return (
     <>
-      <div data-aos="zoom-in" className={`p-5 border-manuallightgrey border-4 rounded-3xl mb-10 flex flex-col items-center ${hidden?"max-xl:hidden":"visible"} `}>
+      <div data-aos="zoom-in" className={`p-5 max-w-[260px] border-manuallightgrey border-4 rounded-3xl mb-10 flex flex-col items-center ${hidden?"max-xl:hidden":"visible"} `}>
         <Image src={`${path}`} height="100" width="100" alt="Dhillon Aviation" className="h-10 w-10 mb-2" />
         <div className="text-manualyellow text-center font-semibold text-lg lg:text-xl mx-2 mb-2 ">{title}</div>
         <div className="text-sm text-center">{short}</div>
@@ -112,9 +112,9 @@ const Servicesection = () => {
   return (
     <section className="bg-manualblack text-white flex flex-col items-center px-10 py-10 lg:py-20 md:px-16 ">
       <div className=" text-3xl font-extrabold mb-16 underline underline-offset-8 decoration-manualyellow leading-relaxed slg:text-4xl xl:text-5xl">
-        OUR SERVICES
+        OUR EXPERTISE
       </div>
-      <div className="grid gap-4 content-start sm:grid-cols-1 sm:grid-rows-6 md:grid-cols-2 md:grid-rows-3 lg:grid-cols-3 lg:grid-rows-2 xl:grid-cols-5 xl:grid-rows-2">
+      <div className="grid gap-4 2xl:gap-10 content-start sm:grid-cols-1 sm:grid-rows-6 md:grid-cols-2 md:grid-rows-3 lg:grid-cols-3 lg:grid-rows-2 xl:grid-cols-5 xl:grid-rows-2">
         {data.map((el, i) => {
           if(i>5){
             return <Row

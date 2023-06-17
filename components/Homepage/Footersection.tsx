@@ -12,7 +12,7 @@ const Footersection = () => {
               className=" h-11 w-52 lg:h-14 lg:w-72 xl:h-14 xl:w-72"
               height={50}
               width={280}
-              src={"/static/nav/brandfinalgapcroppedwhite.svg"}
+              src={"/static/nav/logoboldwhite.svg"}
               alt=""
             />
           </Link>

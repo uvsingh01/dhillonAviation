@@ -16,7 +16,7 @@ const Aboutsection = () => {
     );
   }, [])
   return (
-    <section className="bg-[url('/static/bgwhite.jpg')] bg-cover flex flex-col items-center xl:flex-row h-auto ">
+    <section className="bg-[url('/static/cloudbg.jpg')] bg-fixed flex flex-col items-center xl:flex-row h-auto ">
       <Image
         src="/static/editedheli.png"
         height="500"
