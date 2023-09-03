@@ -68,11 +68,11 @@ const Header = () => {
           </svg>
         </button>
         <div className="hidden w-full text-lg mt-3 pr-4 lg:block lg:w-auto lg:align lg:text-lg xl:text-xl">
-          <ul className="font-semibold flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <ul className="font-semibold flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent">
             <li>
               <Link
                 href="#"
-                className={`block py-2 pl-3 pr-4 ${show?"text-black":"text-white"}   bg-manualgrey rounded md:bg-transparent md:p-0 dark:text-white md:dark:text-blue-500`}
+                className={`block py-2 pl-3 pr-4 ${show?"text-black":"text-white"} rounded md:bg-transparent md:p-0  md:text-manualyellow`}
                 aria-current="page"
               >
                 Home
@@ -81,7 +81,7 @@ const Header = () => {
             <li>
               <Link
                 href="#"
-                className="block py-2 pl-3 pr-4 text-manualyellow rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-manualyellow md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                className={`block py-2 pl-3 pr-4 ${show?"text-black":"text-white"}  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-manualyellow md:p-0`}
               >
                 Fleet
               </Link>
@@ -89,7 +89,7 @@ const Header = () => {
             <li>
               <Link
                 href="#"
-                className="block py-2 pl-3 pr-4 text-manualyellow rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-manualyellow md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                className={`block py-2 pl-3 pr-4 ${show?"text-black":"text-white"}  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-manualyellow md:p-0`}
               >
                 Services
               </Link>
@@ -97,7 +97,7 @@ const Header = () => {
             <li>
               <Link
                 href="#"
-                className="block py-2 pl-3 pr-4 text-manualyellow rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-manualyellow md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                className={`block py-2 pl-3 pr-4 ${show?"text-black":"text-white"}  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-manualyellow md:p-0`}
               >
                 Clients
               </Link>
@@ -105,7 +105,7 @@ const Header = () => {
             <li>
               <Link
                 href="/about"
-                className="block py-2 pl-3 pr-4 text-manualyellow rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-manualyellow md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                className={`block py-2 pl-3 pr-4 ${show?"text-black":"text-white"}  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-manualyellow md:p-0`}
               >
                 About
               </Link>
@@ -148,7 +148,7 @@ const Header = () => {
         <li className="">
           <Link
             href="#"
-            className="block py-2 pl-3 pr-4  text-white bg-manualgrey rounded lg:bg-transparent lg:text-manualgrey lg:p-0 dark:text-white lg:dark:text-blue-500"
+            className="block py-2 pl-3 pr-4  text-white bg-manualgrey rounded lg:bg-transparent lg:text-manualgrey lg:p-0  lg:dark:text-blue-500"
             aria-current="page"
           >
             Home
@@ -157,7 +157,7 @@ const Header = () => {
         <li>
           <Link
             href="#"
-            className="block py-2 pl-3 pr-4 text-manualyellow rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-manualyellow lg:p-0 dark:text-white lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent"
+            className="block py-2 pl-3 pr-4 text-manualyellow rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-manualyellow lg:p-0  lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent"
           >
             Fleet
           </Link>
@@ -165,7 +165,7 @@ const Header = () => {
         <li>
           <Link
             href="#"
-            className="block py-2 pl-3 pr-4 text-manualyellow rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-manualyellow lg:p-0 dark:text-white lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent"
+            className="block py-2 pl-3 pr-4 text-manualyellow rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-manualyellow lg:p-0  lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent"
           >
             Services
           </Link>
@@ -173,7 +173,7 @@ const Header = () => {
         <li>
           <Link
             href="#"
-            className="block py-2 pl-3 pr-4 text-manualyellow rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-manualyellow lg:p-0 dark:text-white lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent"
+            className="block py-2 pl-3 pr-4 text-manualyellow rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-manualyellow lg:p-0  lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent"
           >
             Clients
           </Link>
@@ -181,7 +181,7 @@ const Header = () => {
         <li>
           <Link
             href="#"
-            className="block py-2 pl-3 pr-4 text-manualyellow rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-manualyellow lg:p-0 dark:text-white lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent"
+            className="block py-2 pl-3 pr-4 text-manualyellow rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-manualyellow lg:p-0  lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent"
           >
             About
           </Link>
